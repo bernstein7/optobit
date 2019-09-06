@@ -61,7 +61,7 @@ class User < ApplicationRecord
 end
 ```
 
-Now you can treat your roles and notification preference as collections while they are beign saved as single number.
+Now you can treat your roles and notification preference as collections while they are being saved as single number.
 
 For example:
 
