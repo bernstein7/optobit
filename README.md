@@ -112,7 +112,7 @@ user.roles
 ### Todos:
 * Tests
 * Options verification
-* Ability to search by options
+* Ability to search by options (e.g. `User.where(role: User.roles(:developer, :mainainer))` produces SQL query like `SELECT  users.* FROM users WHERE users.role = 5`)
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
