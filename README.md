@@ -80,7 +80,7 @@ user.roles << :developer
 => [:developer]
 
 user.role
-=> 4 
+=> 4 # since roles map is 1 0 0
 
 user.notification_preferences << :sms
 => [:sms]
@@ -88,7 +88,7 @@ user.notification_preferences << :email
 => [:sms, :email]
 
 user.notification_preference
-=> 6
+=> 6 # since notification_preferences map is 1 1 0
 
 u.save
    (0.4ms)  BEGIN
