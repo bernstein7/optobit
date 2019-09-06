@@ -102,8 +102,6 @@ user.reload
 
 user.roles
 => [:developer]
-user.notification_preference
-=> 6
 
 > user.notification_preferences
 => [:sms, :email]
