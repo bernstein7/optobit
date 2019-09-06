@@ -99,7 +99,6 @@ u.save
 user.reload
   User Load (0.3ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2  [["id", 1], ["LIMIT", 1]]
  => #<User id: 1, email: "clapandslap@gmail.com", password_digest: "$2a$10$IjojJEGWzpERqwlnmpkz3OnhfG0S5.g5UQuE1HC4EFq...", created_at: "2019-09-05 15:57:20", updated_at: "2019-09-06 11:31:05", role: 4, notification_preference: 6>
-```
 
 user.roles
 => [:developer]
@@ -108,6 +107,7 @@ user.notification_preference
 
 > user.notification_preferences
 => [:sms, :email]
+```
 
 ## Development
 
