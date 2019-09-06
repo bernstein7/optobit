@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-Say you've got User class which is ActiveRecord model and you need to store some binary preferences like a role or the way user wants to be nofified.
+Say you've got User class which is ActiveRecord model and you need to store some preferences like a roles or the ways user wants to be notified.
 
 First of all your model should have numeric column in database table
 
